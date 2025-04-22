@@ -29,7 +29,7 @@
         </li>
         <li>
           <label for="telefone">Telefone</label>
-          <input type="tel" name="telefone" id="telefone" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">(99) 99999-9999
+          <input type="tel" name="telefone" id="telefone" pattern="\(\d{2}\) \d{5}-\d{4}">(99) 99999-9999
         </li>
         <li>
           Assunto
@@ -46,8 +46,8 @@
         <li>
           <fieldset>
             <legend>Opções de Resposta</legend>
-            E-mail<input type="radio" value="email" name="resposta">
-            Telefone<input type="radio" value="telefone" name="resposta">
+            E-mail<input type="checkbox" name="resposta" value="email">
+            Telefone<input type="checkbox" name="resposta" value="telefone">
           </fieldset>
         </li>
         <li>
